@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.parqueadero2.Controlador.CrearParqueaderoController">
+    <children>
+        <Label layoutX="38.0" layoutY="40.0" text="Código del parqueadero:" />
+        <TextField fx:id="codigoParqueaderoField" layoutX="180.0" layoutY="36.0" />
+        <Label layoutX="38.0" layoutY="90.0" text="Número de filas:" />
+        <TextField fx:id="filasField" layoutX="180.0" layoutY="86.0" />
+        <Label layoutX="38.0" layoutY="140.0" text="Número de columnas:" />
+        <TextField fx:id="columnasField" layoutX="180.0" layoutY="136.0" />
+        <Label layoutX="38.0" layoutY="190.0" text="Tarifa por minuto motos clásicas:" />
+        <TextField fx:id="tarifaMotoClasicaField" layoutX="210.0" layoutY="186.0" />
+        <Label layoutX="38.0" layoutY="240.0" text="Tarifa por minuto motos híbridas:" />
+        <TextField fx:id="tarifaMotoHibridaField" layoutX="210.0" layoutY="236.0" />
+        <Label layoutX="38.0" layoutY="290.0" text="Tarifa por minuto para carros:" />
+        <TextField fx:id="tarifaCarroField" layoutX="180.0" layoutY="286.0" />
+        <Button layoutX="180.0" layoutY="330.0" mnemonicParsing="false" onAction="#crearParqueadero" text="Crear Parqueadero" />
+        <Label fx:id="mensajeLabel" layoutX="38.0" layoutY="376.0" />
+    </children>
+</AnchorPane>

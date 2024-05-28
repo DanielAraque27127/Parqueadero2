@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="533.0" prefWidth="453.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.parqueadero2.Controlador.RegistrarVehiculoController">
+    <children>
+        <Label layoutX="38.0" layoutY="40.0" text="Código del parqueadero:" />
+        <TextField fx:id="codigoParqueaderoField" layoutX="180.0" layoutY="36.0" />
+        <Label layoutX="38.0" layoutY="90.0" text="Placa del vehículo:" />
+        <TextField fx:id="placaField" layoutX="180.0" layoutY="86.0" />
+        <Label layoutX="38.0" layoutY="140.0" text="Modelo del vehículo:" />
+        <TextField fx:id="modeloField" layoutX="180.0" layoutY="136.0" />
+        <Label layoutX="38.0" layoutY="190.0" text="¿Carro o moto? (c/m):" />
+        <TextField fx:id="tipoField" layoutX="180.0" layoutY="186.0" />
+        <Label layoutX="38.0" layoutY="240.0" text="propietario" />
+        <TextField fx:id="propietarioField" layoutX="186.0" layoutY="236.0" />
+        <Label layoutX="38.0" layoutY="290.0" text="identificacion" />
+        <TextField fx:id="identificacionField" layoutX="186.0" layoutY="286.0" />
+        <Label layoutX="15.0" layoutY="340.0" text="digite hora en formato HH:mm" />
+        <TextField fx:id="horaField" layoutX="186.0" layoutY="336.0" />
+        <Label layoutX="38.0" layoutY="400.0" text="Velocidad Máxima (moto):" />
+        <TextField fx:id="velocidadMaximaField" layoutX="186.0" layoutY="396.0" />
+        <Label layoutX="38.0" layoutY="460.0" text="¿Es híbrida? (true/false):" />
+        <TextField fx:id="esHibridaField" layoutX="186.0" layoutY="456.0" />
+        <Button layoutX="194.0" layoutY="493.0" mnemonicParsing="false" onAction="#registrarVehiculo" text="Registrar" />
+        <Label fx:id="mensajeLabel" layoutX="38.0" layoutY="376.0" />
+    </children>
+</AnchorPane>

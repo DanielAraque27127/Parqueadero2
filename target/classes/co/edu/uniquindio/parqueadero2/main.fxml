@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox spacing="10" alignment="CENTER" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.parqueadero2.Controlador.MainController">
+    <Label text="Menú Principal" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+    <Button text="Crear Parqueadero" onAction="#crearParqueadero"/>
+    <Button text="Registrar Vehículo" onAction="#registrarVehiculo"/>
+    <Button text="Ver Puestos Ocupados y Disponibles" onAction="#verPuestos"/>
+    <Button text="Calcular Costo de Estacionamiento" onAction="#calcularCosto"/>
+    <Button text="Generar Reporte Diario y Mensual" onAction="#generarReporte"/>
+    <Button text="Salir" onAction="#salir"/>
+</VBox>
